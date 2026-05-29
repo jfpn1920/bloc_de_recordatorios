@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/*------------------------------*/
+/*--|estilo_base_presentacion|--*/
+/*------------------------------*/
+.contenedor_presentacion_bloc_de_notas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.tarjeta_presentacion_bloc_de_notas{
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.imagen_presentacion_bloc_de_notas{
+    width: 290px;
+    height: 399px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.titulo_presentacion_bloc_de_notas{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+.subtitulo_presentacion_bloc_de_notas{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -30px;
+    color: #000000;
+}
+.boton_presentacion_bloc_de_notas{
+    text-decoration: none;
+    background: linear-gradient(
+        to bottom,
+        #bfc5d1,
+        #555b69
+    );
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -15px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.boton_presentacion_bloc_de_notas:hover{
+    transform: scale(1.05);
+}
+/*---------------------------------------*/
+/*--|estilo_base_bloc_de_recordatorios|--*/
+/*---------------------------------------*/
+.contenedor{
+    width: 220px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #d9d9d9;
+    border: 1px solid #7d7d7d;
+}
+.titulo{
+    background: #6f8fbc;
+    padding: 6px;
+    text-align: center;
+    border-bottom: 1px solid #5b7598;
+}
+.titulo h1{
+    font-size: 13px;
+    color: #111;
+}
+.contenido{
+    padding: 10px;
+}
+.grupo{
+    margin-bottom: 12px;
+}
+.grupo label{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: #222;
+}
+input,
+textarea,
+select{
+    width: 100%;
+    border: 1px solid #9a9a9a;
+    padding: 5px;
+    font-size: 11px;
+    outline: none;
+    background: #f5f5f5;
+}
+textarea{
+    resize: none;
+    height: 78px;
+}
+.campo_icono{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.icono{
+    width: 28px;
+    height: 28px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.select_contenedor{
+    position: relative;
+}
+select{
+    appearance: none;
+    cursor: pointer;
+    padding-right: 25px;
+}
+.select_contenedor::after{
+    content: "▼";
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 10px;
+    pointer-events: none;
+    color: #222;
+}
+.btn_crear{
+    width: 115px;
+    height: 28px;
+    background: #5f7fad;
+    border: none;
+    color: #111;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto 5px auto;
+}
+.btn_crear:hover{
+    background: #54719a;
+}
+/*-----------------------------------------*/
+/*--|estilo_base_contador_en_recordarios|--*/
+/*-----------------------------------------*/
+.contenedor_tablero{
+    width: 1175px;
+    margin-left: 240px;
+    margin-top: -545px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+}
+.card{
+    background: #d9d9d9;
+    border: 1px solid #7d7d7d;
+    height: 160px;
+}
+.card_titulo{
+    background: #6f8fbc;
+    border-bottom: 1px solid #5b7598;
+    padding: 4px;
+    text-align: center;
+}
+.card_titulo h2{
+    font-size: 13px;
+    color: #222;
+}
+.card_numero{
+    width: 100%;
+    height: calc(100% - 30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_numero span{
+    font-size: 120px;
+    font-weight: bold;
+    color: #000;
+    line-height: 1;
+}
+/*----------------------------------------*/
+/*--|estilo_base_lista_de_recordatorios|--*/
+/*----------------------------------------*/
+.contenedor_lista{
+    width: 1175px;
+    height: 35px;
+    margin-left: 240px;
+    padding-top: 10px;
+}
+.titulo_lista{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.titulo_lista h1{
+    font-size: 16px;
+    color: #2d2d2d;
+}
+.linea_azul{
+    width: 100%;
+    height: 4px;
+    margin-top: -8px;
+    background: #6f8fbc;
+}
+/*-------------------------------------------------*/
+/*--|estilo_base_mostrar_dinamicamente_los_datos|--*/
+/*-------------------------------------------------*/
+.contenidor-tajeta-recordatorio{
+    width: 1185px;
+    margin-top: 8px;
+    margin-left: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: flex-start;
+}
+.tarjeta_recordatorio{
+    width: 225.4px;
+    background: #d9d9d9;
+    border: 1px solid #7d7d7d;
+}
+.tarjeta_titulo{
+    background: #5f7fad;
+    padding: 6px;
+    text-align: center;
+    border-bottom: 1px solid #4d6991;
+}
+.tarjeta_titulo h2{
+    font-size: 13px;
+    color: #111;
+}
+.tarjeta_descripcion{
+    padding: 10px;
+}
+.tarjeta_descripcion p{
+    height: 158px;
+    border: 1px solid #8f8f8f;
+    background: #f1f1f1;
+    padding: 6px;
+    font-size: 12px;
+    color: #222;
+    overflow-y: auto;
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+.tarjeta_informacion{
+    padding: 0 10px 10px 10px;
+}
+.tarjeta_informacion span{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #222;
+}
+.tarjeta_informacion strong{
+    color: #000;
+}
+.tarjeta_botones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.btn_editar,
+.btn_eliminar{
+    height: 34px;
+    border: none;
+    background: #5f7fad;
+    color: #111;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-top: 1px solid #4d6991;
+}
+.btn_editar{
+    border-right: 1px solid #4d6991;
+}
+.btn_editar:hover,
+.btn_eliminar:hover{
+    background: #54719a;
+}

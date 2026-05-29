@@ -1,0 +1,15 @@
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\bin\Debug\net10.0\bloc_de_recordatorios.exe
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\bin\Debug\net10.0\bloc_de_recordatorios.deps.json
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\bin\Debug\net10.0\bloc_de_recordatorios.runtimeconfig.json
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\bin\Debug\net10.0\bloc_de_recordatorios.dll
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\bin\Debug\net10.0\bloc_de_recordatorios.pdb
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\obj\Debug\net10.0\bloc_de_recordatorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\obj\Debug\net10.0\bloc_de_recordatorios.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\obj\Debug\net10.0\bloc_de_recordatorios.AssemblyInfo.vb
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\obj\Debug\net10.0\bloc_de_recordatorios.vbproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\obj\Debug\net10.0\bloc_de_recordatorios.sourcelink.json
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\obj\Debug\net10.0\bloc_de_recordatorios.dll
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\obj\Debug\net10.0\refint\bloc_de_recordatorios.dll
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\obj\Debug\net10.0\bloc_de_recordatorios.pdb
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\obj\Debug\net10.0\bloc_de_recordatorios.genruntimeconfig.cache
+C:\Users\LENOVO\OneDrive\Documentos\bloc_de_recordatorios\bloc_de_recordatorios\obj\Debug\net10.0\ref\bloc_de_recordatorios.dll

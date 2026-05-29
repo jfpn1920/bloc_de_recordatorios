@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bloc de recordatorios</title>
+    <link rel="stylesheet" href="bloc_de_recordatorios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="bloc_de_recordatorios.js" defer></script>
+</head>
+<body>
+    <!----------------------------------------->
+    <!--|estructurando_bloc_de_recordatorios|-->
+    <!----------------------------------------->
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>Bloc de recordatorios</h1>
+        </div>
+        <div class="contenido">
+            <div class="grupo">
+                <label>Agregar un titulo</label>
+                <input
+                    type="text"
+                    id="input_titulo"
+                    placeholder="Escribe el titular..."
+                >
+            </div>
+            <div class="grupo">
+                <label>Has una descripcion</label>
+                <textarea
+                    id="input_descripcion"
+                    placeholder="Añade la descripcion..."
+                ></textarea>
+            </div>
+            <div class="grupo">
+                <label>Colocar la fecha</label>
+                <div class="campo_icono">
+                    <div class="icono">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <input
+                        type="date"
+                        id="input_fecha"
+                    >
+                </div>
+            </div>
+            <div class="grupo">
+                <label>Colocar la hora</label>
+                <div class="campo_icono">
+                    <div class="icono">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <input
+                        type="time"
+                        id="input_hora"
+                    >
+                </div>
+            </div>
+            <div class="grupo">
+                <label>Seleccionar una prioridad</label>
+                <div class="select_contenedor">
+                    <select id="select_prioridad">
+                        <option>
+                            Ninguna prioridad...
+                        </option>
+                        <option>
+                            Alta
+                        </option>
+                        <option>
+                            Media
+                        </option>
+                        <option>
+                            Baja
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="grupo">
+                <label>Seleccionar la categoria</label>
+                <div class="select_contenedor">
+                    <select id="select_categoria">
+                        <option>
+                            Ninguna categoria...
+                        </option>
+                        <option>
+                            Trabajo
+                        </option>
+                        <option>
+                            Estudio
+                        </option>
+                        <option>
+                            Personal
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="grupo">
+                <label>Seleccionar su estado</label>
+                <div class="select_contenedor">
+                    <select id="select_estado">
+                        <option>
+                            Ningun estado...
+                        </option>
+                        <option>
+                            Pendiente
+                        </option>
+                        <option>
+                            completados
+                        </option>
+                        <option>
+                            Vencidos
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <button
+                class="btn_crear"
+                id="btn_crear"
+            >
+                Crear recordatorio
+            </button>
+        </div>
+    </div>
+    <!------------------------------------------->
+    <!--|estructurando_contador_en_recordarios|-->
+    <!------------------------------------------->
+    <div class="contenedor_tablero">
+        <div class="card">
+            <div class="card_titulo">
+                <h2>Total de recordatorios</h2>
+            </div>
+            <div class="card_numero">
+                <span id="total_recordatorios">
+                    0
+                </span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_titulo">
+                <h2>Completados</h2>
+            </div>
+            <div class="card_numero">
+                <span id="total_completados">
+                    0
+                </span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_titulo">
+                <h2>Pendientes</h2>
+            </div>
+            <div class="card_numero">
+                <span id="total_pendientes">
+                    0
+                </span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_titulo">
+                <h2>Vencidos</h2>
+            </div>
+            <div class="card_numero">
+                <span id="total_vencidos">
+                    0
+                </span>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------>
+    <!--|estructurando_lista_de_recordatorios|-->
+    <!------------------------------------------>
+    <div class="contenedor_lista">
+        <div class="titulo_lista">
+            <h1>Lista de recordatorios</h1>
+        </div>
+        <div class="linea_azul"></div>
+    </div>
+    <!--------------------------------------------------->
+    <!--|estructurando_mostrar_dinamicamente_los_datos|-->
+    <!--------------------------------------------------->
+    <div class="contenidor-tajeta-recordatorio" id="contenedor_tarjeta_recordatorio"></div>
+</body>
+</html>
