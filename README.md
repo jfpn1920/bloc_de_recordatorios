@@ -2,18 +2,12 @@
 <img src="imagen_presentacion.png" alt="Presentación" width="220" align="left" style="margin-right: 20px; border-radius: 5px;">
 
 <p style="text-align: justify;">
-    ¡Bienvenido a este repositorio! Aquí encontrarás la presentación de mi proyecto <b>Bloc de recordatorio</b>, una propuesta integral enfocada en la organización, gestión y persistencia de notas y recordatorios digitales mediante una interfaz moderna, intuitiva y visualmente atractiva. Para el desarrollo de este ejercicio práctico, se asumió el reto de implementar la misma lógica de codigo en diferentes tecnologías, lenguajes y enfoques de programación como <b>pseint, python, java y visual basic</b>. Este enfoque multiplataforma no solo ha permitido fortalecer conocimientos fundamentales relacionados con la lógica de programación, el diseño de interfaces y la programación orientada a objetos (POO), sino que también ha servido para comparar de manera directa la sintaxis, el rendimiento y la estructura de desarrollo en cada uno de estos entornos.
+    ¡Bienvenido a este repositorio! Aquí presento mi <b>Bloc de recordatorio</b>, un proyecto diseñado para gestionar notas digitales mediante una interfaz moderna e intuitiva. El núcleo de este ejercicio práctico fue el desafío de replicar la misma lógica de negocio en múltiples entornos (<b>Pseint, Python, Java y Visual Basic</b>), permitiéndome comparar sintaxis, rendimiento y estructuras de desarrollo tanto en consola como en aplicaciones de escritorio bajo el enfoque de la programación orientada a objetos.
 </p>
 
 <p style="text-align: justify;">
-    Además, el proyecto profundiza en conceptos avanzados tanto en el desarrollo <b>frontend</b> usando <b>html, css y js</b> y como en el <b>backend</b> usando <b>php y phpmyadmin</b>. En la parte visual y de interacción con el usuario, se integraron principios de diseño responsivo y una manipulación dinámica y eficiente del dom mediante javaacript puro. En cuanto a la persistencia de los datos, se exploraron dos metodologías esenciales: un almacenamiento local rápido y directo en el navegador utilizando <b>localstorage</b>, y una arquitectura cliente-servidor más robusta que conecta el cliente con el backend mediante peticiones asíncronas, gestionando bases de datos relacionales en el entorno local de <b>php y phpmyadmin</b>. 
+    Además, integré desarrollo <b>Frontend</b> (HTML, CSS, JS) y <b>Backend</b> (PHP, phpMyAdmin), conectando la interfaz mediante peticiones asíncronas para almacenar datos tanto de forma local con <b>LocalStorage</b> como en bases de datos relacionales en <b>XAMPP</b>.
 </p>
-
-<p style="text-align: justify;">
-    De esta manera, el repositorio se consolida como un completo laboratorio de aprendizaje, experimentación y fortalecimiento de habilidades tecnológicas. Representa un puente sólido entre la teoría y la práctica, demostrando la capacidad de integrar múltiples herramientas para construir soluciones tanto de escritorio como web, orientadas al desarrollo tanto visual como funcional bajo las mejores prácticas de la industria.
-</p>
-<br clear="left"/>
-<br clear="left"/>
 
 #
 ### 📂 Tecnologías utilizadas en este proyecto
