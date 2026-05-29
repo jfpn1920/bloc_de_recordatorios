@@ -6,7 +6,7 @@
 </p>
 
 <p style="text-align: justify;">
-    Además, integré desarrollo <b>Frontend</b> (HTML, CSS, JS) y <b>Backend</b> (PHP, phpMyAdmin), conectando la interfaz mediante peticiones asíncronas para almacenar datos tanto de forma local con <b>LocalStorage</b> como en bases de datos relacionales en <b>XAMPP</b>.
+    Además, logré una integración completa entre desarrollo <b>frontend</b> (html, css, js) y <b>backend</b> (php, phpmyadmin), manipulando dinámicamente el dom y conectando la interfaz mediante peticiones asíncronas para garantizar una persistencia de datos híbrida: de forma local e inmediata con <b>localstorage</b>, y de manera centralizada en una base de datos relacional mediante un servidor local en <b>xampp</b>.
 </p>
 
 #
