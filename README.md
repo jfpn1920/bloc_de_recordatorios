@@ -6,7 +6,7 @@
 </p>
 
 <p style="text-align: justify;">
-    Además, logré una integración completa entre desarrollo <b>frontend</b> (html, css, js) y <b>backend</b> (php, phpmyadmin), manipulando dinámicamente el dom y conectando la interfaz mediante peticiones asíncronas para garantizar una persistencia de datos híbrida: de forma local e inmediata con <b>localstorage</b>, y de manera centralizada en una base de datos relacional mediante un servidor local en <b>xampp</b>.
+    Además, logré una integración completa entre desarrollo <b>frontend</b> (html, css, js) y <b>backend</b> (php, phpmyadmin), manipulando dinámicamente el dom y conectando la interfaz mediante peticiones asíncronas para garantizar una persistencia de datos híbrida: de forma local e inmediata con <b>localstorage</b>, y de manera centralizada en una base de datos relacional mediante un servidor local en <b>xampp</b>. El intercambio de información entre el cliente y el servidor se estructuró rigurosamente utilizando el formato estándar json, lo que facilitó operaciones crud completamente fluidas y en tiempo real. Asimismo, diseñé un panel resumen con métricas dinámicas que reflejan el progreso de los estados (pendiente, en progreso y completado) de cada alerta. Todo este ecosistema web fue desarrollado de forma nativa y sin frameworks, logrando una interfaz adaptativa y responsiva que demuestra el dominio técnico de las bases del desarrollo de software.
 </p>
 
 #
